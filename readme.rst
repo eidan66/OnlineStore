@@ -13,6 +13,8 @@ Languages used:
 * Js
 * css
 * HTML
+* jQuery
+* Mysql
 * API - Google Maps (the key doesn't active right now).
 
 *******************
