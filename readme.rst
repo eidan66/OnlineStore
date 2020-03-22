@@ -7,6 +7,14 @@ I made this website to demonstrate online fashion store.
 ON THIS PROJECT, ALMOST ALL THE FRONT-END TAKE FROM ``VIOLET`` TEMPLATE.
 
 *******************
+Testing the store:
+*******************
+If you want, i made an user for who doesn't want to register and skip it.
+username : Admin123
+Password : Admin123
+
+* Remember, the store doesn't exist in 'real world'.
+*******************
 Languages used:
 *******************
 * CodeIgniter - MVC - php
