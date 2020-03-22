@@ -9,7 +9,7 @@ ON THIS PROJECT, ALMOST ALL THE FRONT-END TAKE FROM ``VIOLET`` TEMPLATE.
 *******************
 Testing the store:
 *******************
-If you want, i made an user for who doesn't want to register and skip it.
+If you want, i made an user for who doesn't want to register and want to skip it.
 
 * username : Admin123
 * Password : Admin123
