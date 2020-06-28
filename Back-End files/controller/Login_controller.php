@@ -62,7 +62,7 @@ class Login_controller  extends CI_Controller {
                
             $error ='';
 
-            if($data['First_name'] == NULL)
+            if(!isset($data['First_name']))
             {
                  $error .= "Enter your first name properly"."<br>";
             }
@@ -74,7 +74,7 @@ class Login_controller  extends CI_Controller {
             {
                 $error .= "Enter only letters in the last name"."<br>";
             }
-            if($data['Last_name'] == NULL)
+            if(!isset($data['Last_name']))
             {
                 $error .= "Enter your last name properly"."<br>";
             }    
@@ -82,7 +82,7 @@ class Login_controller  extends CI_Controller {
            {
                $error .= "Invalid email format"."<br>";
            }
-           if($data['Password'] != $data['Confirm_password'])
+           if($data['Password'] !== $data['Confirm_password'])
             {
                 $error .= " The passwords didn't match"."<br>";
             }
