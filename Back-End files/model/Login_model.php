@@ -18,7 +18,6 @@ class Login_model extends CI_Model {
         public function insertData($data){
               $this->db->db_debug = FALSE; 
 
-             $error=NULL;
               if (!$this->db->insert('users', $data)){
                   $error=$this->db->error();
               }
